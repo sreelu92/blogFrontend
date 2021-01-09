@@ -26,7 +26,7 @@ export default {
     createPost: function () {
       axios
         .request({
-          url: "http://blogspost.ml/api/blogpost",
+          url: "http://blogspost.ml/api/post",
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -32,7 +32,7 @@ export default {
     updatePost: function () {
       axios
         .request({
-          url: "http://blogspost.ml/api/blogpost",
+          url: "http://blogspost.ml/api/post",
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",

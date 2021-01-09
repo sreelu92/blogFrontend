@@ -31,7 +31,7 @@ export default {
     getPosts: function () {
       axios
         .request({
-          url: "http://blogspost.ml/api/blogpost",
+          url: "http://blogspost.ml/api/post",
           method: "GET",
         })
         .then((response) => {
